@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - AS'S Móveis Planejados</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2e3d2f;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 5px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: url('banner.jpg') center/cover no-repeat;
+      color: #fff;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2e3d2f;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AS'S Móveis Planejados</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Transformando Ideias em Móveis Planejados</h2>
+    <p>Design sob medida para cada ambiente</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos especialistas em móveis planejados, unindo criatividade, funcionalidade e sofisticação para transformar ambientes em espaços únicos.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="portfolio">
+      <div class="card">
+        <img src="projeto1.jpg" alt="Projeto 1">
+        <p>Cozinha planejada moderna</p>
+      </div>
+      <div class="card">
+        <img src="projeto2.jpg" alt="Projeto 2">
+        <p>Quarto sob medida</p>
+      </div>
+      <div class="card">
+        <img src="projeto3.jpg" alt="Projeto 3">
+        <p>Home Office compacto</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@assmoveis.com.br</p>
+    <p>Telefone: (xx) xxxx-xxxx</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AS'S Móveis Planejados - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
