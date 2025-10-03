@@ -9,7 +9,7 @@ body {
   background: #ffffff url("logo.png") no-repeat center center fixed;
   background-size: cover; /* faz a imagem cobrir toda a tela */
   color: #ffffff;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 header {
@@ -46,12 +46,12 @@ section {
 .hero {
   text-align: center;
   padding: 100px 20px;
-  background: url('img/banner.jpg') center/cover no-repeat;
+  background: url('logo2.png') center/cover no-repeat;
   color: #fff;
 }
 
 .hero h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-bottom: 20px;
 }
 
@@ -63,7 +63,7 @@ section {
 
 .card {
   background: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
   transition: transform 0.2s;
